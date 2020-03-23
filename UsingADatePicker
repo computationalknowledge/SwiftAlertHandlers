@@ -24,3 +24,9 @@ let selectedDate: String = dateFormatter.string(from:
 sender.date)
 ShowAlert(dateTime: selectedDate)
 }
+@IBAction func getCurrentDateTime(_ sender: UIButton) {
+let selectedDate: String = dateFormatter.string(from:
+myDatePicker.date)
+ShowAlert(dateTime: selectedDate)
+}
+}
